@@ -1,0 +1,20 @@
+PS C:\Users\shuns> cd git_challenge
+PS C:\Users\shuns\git_challenge> git init
+Initialized empty Git repository in C:/Users/shuns/git_challenge/.git/
+PS C:\Users\shuns\git_challenge> git add hello_world.txt
+PS C:\Users\shuns\git_challenge> git commit -m "hello_world.txtを追更"  
+[main (root-commit) c014337] hello_world.txtを追更
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\shuns\git_challenge> git commit -m "日本語訳を追記"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\shuns\git_challenge> git log --oneline
+c014337 (HEAD -> main) hello_world.txtを追更
+PS C:\Users\shuns\git_challenge> cd C:\Users\shuns                  
+PS C:\Users\shuns> mkdir kadai_005
